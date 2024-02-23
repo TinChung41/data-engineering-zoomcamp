@@ -126,4 +126,14 @@ Did you take notes? You can share them here
 * [Notes by Alain Boisvert](https://github.com/boisalai/de-zoomcamp-2023/blob/main/week1.md)
 * Notes on [Docker, Docker Compose, and setting up a proper Python environment](https://medium.com/@verazabeida/zoomcamp-2023-week-1-f4f94cb360ae), by Vera
 * [Setting up the development environment on Google Virtual Machine](https://itsadityagupta.hashnode.dev/setting-up-the-development-environment-on-google-virtual-machine), blog post by Aditya Gupta
+<<<<<<< HEAD
 * Add your notes here
+=======
+* [Notes from Zharko Cekovski](https://www.zharconsulting.com/contents/data/data-engineering-bootcamp-2024/week-1-postgres-docker-and-ingestion-scripts/)
+* [2024 Module-01 Walkthough video by ellacharmed on youtube](https://youtu.be/VUZshlVAnk4)
+* [2024 Companion Module Walkthough slides by ellacharmed](https://github.com/ellacharmed/data-engineering-zoomcamp/blob/ella2024/cohorts/2024/01-docker-terraform/walkthrough-01.pdf)
+* [2024 Module-01 Environment setup video by ellacharmed on youtube](https://youtu.be/Zce_Hd37NGs)
+* [Docker Notes by Linda](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/1a-docker_sql/readme.md) • [Terraform Notes by Linda](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/1b-terraform_gcp/readme.md)
+* [Notes from Hammad Tariq](https://github.com/hamad-tariq/HammadTariq-ZoomCamp2024/blob/9c8b4908416eb8cade3d7ec220e7664c003e9b11/week_1_basics_n_setup/README.md)
+* Add your notes above this line
+>>>>>>> be40774fdd0b1f9ecd5c446c6916f72cd2dda365
