@@ -15,3 +15,5 @@ serving_dir
 .ipynb_checkpoints/
 !week_6_stream_processing/avro_example/data/rides.csv
 cohorts/2024/03-data-warehouse/mage-zoomcamp/
+fhv_tripdata_2019-01.parquet
+fhv_tripdata_2019-01.csv.gz
