@@ -198,39 +198,42 @@ models:
             description: Total amount of all tolls paid in trip.
           - name: Total_amount 
             description: The total amount charged to passengers. Does not include cash tips.
-
+    
     - name: stg_fhv_tripdata
-      description: >
-        Trips made by For-Hire Vehicles (FHV). 
-        The records were collected and provided to the NYC Taxi and Limousine Commission (TLC) by
-        technology service providers. 
+      description: ""
       columns:
-          - name: dispatching_base_num
-            description: Dispatching base number for the trip
-            tests:
-                - unique:
-                    severity: warn
-                - not_null:
-                    severity: warn
-          - name: pickup_datetime 
-            description: The date and time when the trip was picked up.
-          - name: dropOff_datetime 
-            description: The date and time when the trip was dropped off.
-          - name: PUlocationID 
-            description: Location ID where the trip was picked up.
-            tests:
-                - relationships:
-                    to: ref('taxi_zone_lookup')
-                    field: locationid
-                    severity: warn
-          - name: DOlocationID 
-            description: Location ID where the trip was dropped off.
-            tests:
-                - relationships:
-                    to: ref('taxi_zone_lookup')
-                    field: locationid
-                    severity: warn
-          - name: SR_Flag 
-            description: Shared ride flag (1=shared ride, 0=not a shared ride)
-          - name: Affiliated_base_number 
-            description: Affiliated base number for the trip
+        - name: tripid
+          data_type: string
+          description: ""
+          tests:
+              - unique:
+                  severity: warn
+              - not_null:
+                  severity: warn          
+        - name: dispatching_base_num
+          data_type: string
+          description: ""
+
+        - name: pickup_datetime
+          data_type: timestamp
+          description: ""
+
+        - name: dropoff_datetime
+          data_type: timestamp
+          description: ""
+
+        - name: pulocationid
+          data_type: int64
+          description: ""
+
+        - name: dolocationid
+          data_type: int64
+          description: ""
+
+        - name: sr_flag
+          data_type: int64
+          description: ""
+
+        - name: affiliated_base_number
+          data_type: string
+          description: ""
