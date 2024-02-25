@@ -17,3 +17,4 @@ serving_dir
 cohorts/2024/03-data-warehouse/mage-zoomcamp/
 fhv_tripdata_2019-01.parquet
 fhv_tripdata_2019-01.csv.gz
+05-batch/fhv_tripdata_2019-10.csv.gz
