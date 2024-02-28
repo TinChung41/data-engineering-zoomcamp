@@ -9,6 +9,19 @@ In this tutorial, we'll use [MINGW](https://www.mingw-w64.org/)/[Gitbash](https:
 If you use WSL, follow the instructions from [linux.md](linux.md) 
 
 
+nano ~/.bashrc
+export JAVA_HOME="/c/tools/jdk-11.0.21"
+export PATH="${JAVA_HOME}/bin:${PATH}"
+
+export HADOOP_HOME="/c/tools/hadoop-3.2.0"
+export PATH="${HADOOP_HOME}/bin:${PATH}"
+
+export SPARK_HOME="/c/tools/spark-3.3.2-bin-hadoop3"
+export PATH="${SPARK_HOME}/bin:${PATH}"
+
+export PYTHONPATH="${SPARK_HOME}/python/:$PYTHONPATH"
+export PYTHONPATH="${SPARK_HOME}/python/lib/py4j-0.10.9.5-src.zip:$PYTHONPATH"
+
 ### Installing Java
 
 Spark needs Java 11. Download it from here: [https://www.oracle.com/de/java/technologies/javase/jdk11-archive-downloads.html](https://www.oracle.com/de/java/technologies/javase/jdk11-archive-downloads.html). Select “Windows x64 Compressed Archive” (you may have to create an oracle account for that)
@@ -19,7 +32,7 @@ Unpack it to a folder with no space in the path. We use `C:/tools` - so the full
 Now let’s configure it and add it to `PATH`:
 
 ```bash
-export JAVA_HOME="/c/tools/jdk-11.0.13"
+export JAVA_HOME="/c/tools/jdk-11.0.21"
 export PATH="${JAVA_HOME}/bin:${PATH}"
 ```
 
