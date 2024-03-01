@@ -3,6 +3,8 @@ set -e
 
 TAXI_TYPE=$1 # "yellow"
 YEAR=$2 # 2020
+# https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet
+# https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2021-01.parquet
 
 URL_PREFIX="https://github.com/DataTalksClub/nyc-tlc-data/releases/download"
 
@@ -17,6 +19,6 @@ for MONTH in {1..12}; do
 
   echo "downloading ${URL} to ${LOCAL_PATH}"
   mkdir -p ${LOCAL_PREFIX}
-  wget ${URL} -O ${LOCAL_PATH}
+  curl -O ${URL} -O ${LOCAL_PATH}
 
 done
