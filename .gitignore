@@ -33,3 +33,14 @@ fhv_tripdata_2019-01.csv.gz
 05-batch/zones/.part-00000-cd91c6f4-a0d3-4dac-b5cb-654a74996ac7-c000.snappy.parquet.crc
 05-batch/zones/part-00000-cd91c6f4-a0d3-4dac-b5cb-654a74996ac7-c000.snappy.parquet
 05-batch/code/fhv_tripdata_2019-10.csv
+05-batch/code/fhvhv/2021/01/._SUCCESS.crc
+05-batch/code/fhvhv/2021/01/.part-00000-1b948faa-90b2-4f71-8265-2c17ac6560f6-c000.snappy.parquet.crc
+05-batch/code/fhvhv/2021/01/.part-00001-1b948faa-90b2-4f71-8265-2c17ac6560f6-c000.snappy.parquet.crc
+05-batch/code/fhvhv/2021/01/.part-00002-1b948faa-90b2-4f71-8265-2c17ac6560f6-c000.snappy.parquet.crc
+05-batch/code/fhvhv/2021/01/.part-00003-1b948faa-90b2-4f71-8265-2c17ac6560f6-c000.snappy.parquet.crc
+05-batch/code/fhvhv/2021/01/.part-00004-1b948faa-90b2-4f71-8265-2c17ac6560f6-c000.snappy.parquet.crc
+05-batch/code/fhvhv/2021/01/.part-00005-1b948faa-90b2-4f71-8265-2c17ac6560f6-c000.snappy.parquet.crc
+05-batch/code/fhvhv/2021/01/.part-00006-1b948faa-90b2-4f71-8265-2c17ac6560f6-c000.snappy.parquet.crc
+*.crc
+05-batch/code/fhvhv/2021/01/_SUCCESS
+*.parquet
