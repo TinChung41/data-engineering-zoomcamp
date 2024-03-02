@@ -191,14 +191,9 @@ External Merge Sort
 #### Materializing results for efficient processing 
 Save the result to the disk, and then we can use the result to join with other tables, or we can use the result to do other operations. Instead of doing chain operation
 #### Joining large tables, small tables
-```
-df_zones = spark.read.parquet('zones/')
-df_result = df_join.join(df_zones, df_join.zone == df_zones.LocationID)
-```
-![alt text](image-11.png)
-Instead of the normal join, the executors broadcast a copy of the small DF 
-![alt text](image-12.png)
-We actually dont need to shuffle any data
+
+
+
 ## Homework
 
 - Download the test data
