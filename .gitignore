@@ -44,3 +44,4 @@ fhv_tripdata_2019-01.csv.gz
 *.crc
 05-batch/code/fhvhv/2021/01/_SUCCESS
 *.parquet
+05-batch/code/data/report/revenue/_SUCCESS
