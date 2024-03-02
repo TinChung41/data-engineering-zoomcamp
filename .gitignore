@@ -46,3 +46,4 @@ fhv_tripdata_2019-01.csv.gz
 *.parquet
 05-batch/code/data/report/revenue/_SUCCESS
 05-batch/code/fhv_tripdata_2019-10.csv.gz
+05-batch/code/taxi_zone_lookup.csv
