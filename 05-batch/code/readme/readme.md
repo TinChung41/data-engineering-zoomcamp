@@ -199,6 +199,11 @@ df_result = df_join.join(df_zones, df_join.zone == df_zones.LocationID)
 Instead of the normal join, the executors broadcast a copy of the small DF 
 ![alt text](image-12.png)
 We actually dont need to shuffle any data
+
+### 5.5 (Optional) Resilient Distributed Datasets
+####  Operations on Spark RDDs
+
+#### Spark RDD mapPartition
 ## Homework
 
 - Download the test data
